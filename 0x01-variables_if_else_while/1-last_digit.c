@@ -3,11 +3,11 @@
 #include <time.h>
 
 /**
- * * main - Entry point
- * * this checks the Last Digit of n
- * *
- * *Return: Always 0 (Success)
- * */
+ * main - Entry point
+ * this checks the Last Digit of n
+ *
+ *Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
