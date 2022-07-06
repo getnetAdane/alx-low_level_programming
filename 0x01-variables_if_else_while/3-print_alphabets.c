@@ -3,21 +3,21 @@
 #include <time.h>
 
 /**
- * * main - Entry point
- * *
- * * Return: Always 0 (Success)
- * */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	char character;
-	for (character = 'a' ; character <= 'z' ; character++)
-	{
-		putchar(character);
-	}
-	for (character = 'A' ; character <= 'Z' ; character++)
-	{
-		putchar(character);
-	}
-	putchar('\n');
-	return (0);
+char character;
+for (character = 'a' ; character <= 'z' ; character++)
+{
+putchar(character);
+}
+for (character = 'A' ; character <= 'Z' ; character++)
+{
+putchar(character);
+}
+putchar('\n');
+return (0);
 }
